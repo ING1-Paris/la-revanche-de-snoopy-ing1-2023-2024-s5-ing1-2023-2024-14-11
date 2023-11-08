@@ -95,3 +95,14 @@ int main(void) {
     }while (touche != 'm');
 
     }
+//#include <stdio.h>
+//#include <unistd.h>
+//#include <stdlib.h>
+//
+//int main() {
+//    int chrono = 120;
+//    int a;
+//    for(a=chrono;a>0;a--){
+//        printf("%ds\n",a);
+//        sleep(1);
+//    }
