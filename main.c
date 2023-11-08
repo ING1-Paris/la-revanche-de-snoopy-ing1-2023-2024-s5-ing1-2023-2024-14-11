@@ -5,7 +5,7 @@ int main(void) {
     int touche;
     int temps = 120;
 
-    printf(" La revanche de Ewan \n");
+    printf(" La revanche de Snoopy \n");
     printf(" Les regles du jeu sont les suivantes : \n");
     printf(" \t - Initialement, vous possedez 3 vies \n");
     printf(" \t - Chaque niveau devra etre resolu en moins de 120 secondes. Si le temps est ecoule, vous perdez une vie et recommencez le niveau. \n");
