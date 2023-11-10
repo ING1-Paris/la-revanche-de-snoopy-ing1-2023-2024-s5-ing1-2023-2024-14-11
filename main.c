@@ -3,7 +3,6 @@
 
 int main(void) {
     int touche;
-    int temps = 120;
 
     printf(" La revanche de Snoopy \n");
     printf(" Les regles du jeu sont les suivantes : \n");
@@ -16,6 +15,8 @@ int main(void) {
     char ligne1[22] = "|                    |";
     int i, x = 6, y = 11;
     char jeu[12][22] = {""};
+    int fin[4] = {0};
+    int total={0};
 
     do {
         touche = getchar();
@@ -23,7 +24,8 @@ int main(void) {
             printf("Niveau 1 :\n");
             printf(" \t -> Cliquer sur b pour entrer dans le niveau 1 :  \n");
         }
-    } while (touche != 'a');
+    }
+    while (touche != 'a');
 
     do {
         touche = getchar();
@@ -44,15 +46,16 @@ int main(void) {
                 jeu[10][1] = 0xE;
                 jeu[1][20] = 0xE;
                 jeu[10][20] = 0xE;
+                jeu[5][10] = 0x6;
                 printf("%s\n", jeu[i]);
             }
             strcpy(jeu[11], ligne0);
             printf("%s\n", jeu[11]);
             printf("%d %d\n", x, y);
             printf("%c%c%c", 0x03, 0x03, 0x03);
-
         }
-    } while (touche != 'b');
+    }
+    while (touche != 'b');
 
     do {
 
@@ -79,22 +82,35 @@ int main(void) {
             printf("%s\n", jeu[0]);
             for (i = 1; i < 11; i++) {
                 strcpy(jeu[i], ligne1);
-                jeu[x][y] = 0xB;
-                jeu[1][1] = 0xE;
-                jeu[10][1] = 0xE;
-                jeu[1][20] = 0xE;
-                jeu[10][20] = 0xE;
+                if (fin[0] != 1) jeu[1][1] = 0xE;
+                if (fin[1] != 1) jeu[10][1] = 0xE;
+                if (fin[2] != 1) jeu[1][20] = 0xE;
+                if (fin[3] != 1) jeu[10][20] = 0xE;
                 jeu[5][10] = 0x6;
+                jeu[x][y] = 0xB;
+                if (x==1 && y==1) fin[0]=1;
+                if (x==10 && y==1) fin[1]=1;
+                if (x==1 && y==20) fin[2]=1;
+                if (x==10 && y==20) fin[3]=1;
                 printf("%s\n", jeu[i]);
             }
             strcpy(jeu[11], ligne0);
             printf("%s\n", jeu[11]);
             printf("%d %d\n", x, y);
             printf("%c%c%c", 0x03, 0x03, 0x03);
+            if (fin[0]==1 || fin[1]==1 || fin[2]==1 || fin[3]==1) {
+                total = fin[0]+fin[1]+fin[2]+fin[3];
+                printf("vous avez %d oiseau(x)",total);
+            }
+            if (total ==4) {
+                printf("Vous avez tous vos oiseaux, le niveau est fini");
+                touche='m';
+            }
         }
-    }while (touche != 'm');
-
     }
+    while (touche != 'm');
+}
+
 //#include <stdio.h>
 //#include <unistd.h>
 //#include <stdlib.h>
