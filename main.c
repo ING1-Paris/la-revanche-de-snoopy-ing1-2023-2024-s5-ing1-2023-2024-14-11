@@ -10,7 +10,7 @@ int main(void) {
            "| |_/\\| |-||  |    /|  /_ | \\// | |-||| | \\|||  \\__| | |||  /_   | |_/||  /_   \\___ || | \\||| \\_/|| \\_/||  __/ / /  \n"
            "\\____/\\_/ \\|  \\_/\\_\\\\____\\\\__/  \\_/ \\|\\_/  \\|\\____/\\_/ \\|\\____\\  \\____/\\____\\  \\____/\\_/  \\|\\____/\\____/\\_/   /_/   \n"
            "                                                                                                                     \n");
-    printf(" Les regles du jeu sont les suivantes : \n");
+    printf(" Les règles du jeu sont les suivantes : \n");
     printf(" \t - Initialement, vous possedez 3 vies \n");
     printf(" \t - Chaque niveau devra etre resolu en moins de 120 secondes. Si le temps est ecoule, vous perdez une vie et recommencez le niveau. \n");
     printf(" \t - Le but est de recuperer les 4 oiseaux du niveau sans se faire toucher par la balle et/ou les ennemis (si presents).\n");
