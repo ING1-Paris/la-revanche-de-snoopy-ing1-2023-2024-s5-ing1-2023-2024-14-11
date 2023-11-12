@@ -4,7 +4,12 @@
 int main(void) {
     int touche;
 
-    printf(" La revanche de Snoopy \n");
+    printf(" _     ____    ____  _____ _     ____  _      ____  _     _____   ____  _____   ____  _      ____  ____  ____ ___  _\n"
+           "/ \\   /  _ \\  /  __\\/  __// \\ |\\/  _ \\/ \\  /|/   _\\/ \\ /|/  __/  /  _ \\/  __/  / ___\\/ \\  /|/  _ \\/  _ \\/  __\\\\  \\//\n"
+           "| |   | / \\|  |  \\/||  \\  | | //| / \\|| |\\ |||  /  | |_|||  \\    | | \\||  \\    |    \\| |\\ ||| / \\|| / \\||  \\/| \\  / \n"
+           "| |_/\\| |-||  |    /|  /_ | \\// | |-||| | \\|||  \\__| | |||  /_   | |_/||  /_   \\___ || | \\||| \\_/|| \\_/||  __/ / /  \n"
+           "\\____/\\_/ \\|  \\_/\\_\\\\____\\\\__/  \\_/ \\|\\_/  \\|\\____/\\_/ \\|\\____\\  \\____/\\____\\  \\____/\\_/  \\|\\____/\\____/\\_/   /_/   \n"
+           "                                                                                                                     \n");
     printf(" Les regles du jeu sont les suivantes : \n");
     printf(" \t - Initialement, vous possedez 3 vies \n");
     printf(" \t - Chaque niveau devra etre resolu en moins de 120 secondes. Si le temps est ecoule, vous perdez une vie et recommencez le niveau. \n");
