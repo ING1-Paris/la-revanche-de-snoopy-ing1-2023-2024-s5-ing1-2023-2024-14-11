@@ -2,7 +2,11 @@
 // Created by Ewan Kapoor on 13/11/2023.
 //
 
-#ifndef LA_REVANCHE_DE_SNOOPY_ING1_2023_2024_S5_ING1_2023_2024_14_11_MENU_H
-#define LA_REVANCHE_DE_SNOOPY_ING1_2023_2024_S5_ING1_2023_2024_14_11_MENU_H
+#ifndef SNOOPY_MENU
+#define SNOOPY_MENU
 
-#endif //LA_REVANCHE_DE_SNOOPY_ING1_2023_2024_S5_ING1_2023_2024_14_11_MENU_H
+void menu();
+void afficher_menu();
+void afficher_regles();
+
+#endif //SNOOPY_MENU
