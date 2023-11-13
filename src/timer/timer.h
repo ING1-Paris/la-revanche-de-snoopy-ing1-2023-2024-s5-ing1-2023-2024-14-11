@@ -8,4 +8,7 @@
 int nouveau_timer();
 int ecoulement_timer( *timer);
 
+float time_left;
+int life_left;
+
 #endif //SNOOPY_TIMER
