@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include <window.h>
+#include <windows.h>
 #include <conio.h>
 
 #define LIGNES 22
