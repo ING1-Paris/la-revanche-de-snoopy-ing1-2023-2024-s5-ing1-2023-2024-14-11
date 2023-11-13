@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <string.h>
+#include <window.h>
+#include <conio.h>
 
 #define LIGNES 22
 #define COLONNES 22
