@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 
+#define LIGNES 22
+#define COLONNES 22
+
 int main(void) {
     int touche;
 
@@ -16,8 +19,8 @@ int main(void) {
     printf(" \t - Le but est de recuperer les 4 oiseaux du niveau sans se faire toucher par la balle et/ou les ennemis (si presents).\n");
     printf(" Cliquer sur A et entrer pour acceder aux niveaux\n");
 
-    char ligne0[22] = "____________________";
-    char ligne1[22] = "|                    |";
+    char ligne[LIGNES] = "____________________";
+    char colonne[COLONNES] = "|                    |";
     int i, x = 6, y = 11;
     char jeu[12][22] = {""};
     int fin[4] = {0};
@@ -41,11 +44,11 @@ int main(void) {
             printf("\t - D pour aller a droite\n");
             printf("\t - Q pour aller a gauche \n");
 
-            strcpy(jeu[0], ligne0);
+            strcpy(jeu[0], ligne);
             printf("%s\n", jeu[0]);
 
             for (i = 1; i < 11; i++) {
-                strcpy(jeu[i], ligne1);
+                strcpy(jeu[i], colonne);
                 jeu[6][11] = 0xB;
                 jeu[1][1] = 0xE;
                 jeu[10][1] = 0xE;
@@ -54,7 +57,7 @@ int main(void) {
                 jeu[5][10] = 0x6;
                 printf("%s\n", jeu[i]);
             }
-            strcpy(jeu[11], ligne0);
+            strcpy(jeu[11], ligne);
             printf("%s\n", jeu[11]);
             printf("%d %d\n", x, y);
             printf("%c%c%c", 0x03, 0x03, 0x03);
@@ -83,10 +86,10 @@ int main(void) {
 
         if (touche == 'q' || touche == 'd' || touche == 'z' || touche == 's') {
 
-            strcpy(jeu[0], ligne0);
+            strcpy(jeu[0], ligne);
             printf("%s\n", jeu[0]);
             for (i = 1; i < 11; i++) {
-                strcpy(jeu[i], ligne1);
+                strcpy(jeu[i], colonne);
                 if (fin[0] != 1) jeu[1][1] = 0xE;
                 if (fin[1] != 1) jeu[10][1] = 0xE;
                 if (fin[2] != 1) jeu[1][20] = 0xE;
@@ -99,7 +102,7 @@ int main(void) {
                 if (x==10 && y==20) fin[3]=1;
                 printf("%s\n", jeu[i]);
             }
-            strcpy(jeu[11], ligne0);
+            strcpy(jeu[11], ligne);
             printf("%s\n", jeu[11]);
             printf("%d %d\n", x, y);
             printf("%c%c%c", 0x03, 0x03, 0x03);
