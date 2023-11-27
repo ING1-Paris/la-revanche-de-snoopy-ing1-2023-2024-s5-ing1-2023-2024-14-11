@@ -12,7 +12,30 @@
 
 void menu() {
     afficher_menu();
-
+    int option;
+    switch(option) {
+        case 1:
+            afficher_regles();
+            break;
+        case 2:
+            // lancer une partie
+            break;
+        case 3:
+            // charger une partie
+            break;
+        case 4:
+            // charger un niveau (MDP)
+            break;
+        case 5:
+            // classement
+            break;
+        case 6:
+            quitter();
+            break;
+        default:
+            system("cls");
+            menu();
+    }
 }
 
 void afficher_menu() {

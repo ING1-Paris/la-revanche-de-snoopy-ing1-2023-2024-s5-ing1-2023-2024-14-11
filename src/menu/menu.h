@@ -8,5 +8,6 @@
 void menu();
 void afficher_menu();
 void afficher_regles();
+void quitter();
 
 #endif //SNOOPY_MENU
