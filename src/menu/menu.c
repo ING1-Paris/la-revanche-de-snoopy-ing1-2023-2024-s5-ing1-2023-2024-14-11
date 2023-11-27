@@ -50,6 +50,7 @@ void afficher_regles() {
 
 void quitter() {
     sleep(3);
-    exit(0);
+    exit(0)
+
 }
 
