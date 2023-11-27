@@ -1,8 +1,13 @@
 //
 // Created by Ewan Kapoor on 13/11/2023.
 //
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
-#ifndef LA_REVANCHE_DE_SNOOPY_ING1_2023_2024_S5_ING1_2023_2024_14_11_MDP_H
-#define LA_REVANCHE_DE_SNOOPY_ING1_2023_2024_S5_ING1_2023_2024_14_11_MDP_H
+#ifndef SNOOPY_MDP
+#define SNOOPY_MDP
 
-#endif //LA_REVANCHE_DE_SNOOPY_ING1_2023_2024_S5_ING1_2023_2024_14_11_MDP_H
+int motdepasse();
+
+#endif //SNOOPY_MDP
