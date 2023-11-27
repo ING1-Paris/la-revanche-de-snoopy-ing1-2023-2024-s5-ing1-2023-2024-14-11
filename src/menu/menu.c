@@ -20,7 +20,13 @@ void afficher_menu() {
 }
 
 void afficher_regles() {
-    system(cls);
+    system("cls");
     afficher_fichier("../assets/ASCII/regles.txt");
     menu();
 }
+
+void quitter() {
+    sleep(3);
+    exit(0);
+}
+
