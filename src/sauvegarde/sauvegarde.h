@@ -2,7 +2,15 @@
 // Created by Ewan Kapoor on 13/11/2023.
 //
 
-#ifndef LA_REVANCHE_DE_SNOOPY_ING1_2023_2024_S5_ING1_2023_2024_14_11_SAUVEGARDE_H
-#define LA_REVANCHE_DE_SNOOPY_ING1_2023_2024_S5_ING1_2023_2024_14_11_SAUVEGARDE_H
+#include <stdio.h>
+#include <stdlib.h>
+#include <windows.h>
+#include "../game/game.h"
 
-#endif //LA_REVANCHE_DE_SNOOPY_ING1_2023_2024_S5_ING1_2023_2024_14_11_SAUVEGARDE_H
+#ifndef SNOOPY_SAUVEGARDE
+#define SNOOPY_SAUVEGARDE
+
+char lire_sauvegarde(char nom_partie[30]);
+
+#endif //SNOOPY_SAUVEGARDE
+
