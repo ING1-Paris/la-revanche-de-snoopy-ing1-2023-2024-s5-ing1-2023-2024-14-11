@@ -24,5 +24,5 @@ void demarrage() {
 void afficher_logo() {
 
     afficher_fichier("../assets/ASCII/logo.txt")
-    
+
 };
