@@ -13,7 +13,7 @@
 
 void demarrage() {
 
-    void afficher_logo();
+    afficher_logo();
 
     clrscr();
     textcolor(WHITE+BLINK);
