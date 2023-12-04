@@ -6,9 +6,6 @@
 #define SNOOPY_TIMER
 
 int nouveau_timer();
-int ecoulement_timer( *timer);
-
-float time_left;
-int life_left;
+int ecoulement_timer(int *timer);
 
 #endif //SNOOPY_TIMER

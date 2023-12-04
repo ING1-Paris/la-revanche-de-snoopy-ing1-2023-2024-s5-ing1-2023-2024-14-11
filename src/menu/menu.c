@@ -4,6 +4,7 @@
 
 #include "menu.h"
 #include "../tools/tools.h"
+#include "../classement/classement.h"
 
 
 void menu() {
@@ -24,6 +25,7 @@ void menu() {
             break;
         case 5:
             // classement
+            classement();
             break;
         case 6:
             quitter();
@@ -35,18 +37,23 @@ void menu() {
 }
 
 void afficher_menu() {
+
     afficher_fichier("../assets/menu.txt");
+
 };
 
 void afficher_regles() {
+
     system("cls");
     afficher_fichier("../assets/ASCII/regles.txt");
     menu();
 };
 
 void quitter() {
+
     sleep(3);
-    exit(0)
+    exit(0);
 
 };
+
 

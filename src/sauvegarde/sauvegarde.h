@@ -10,7 +10,10 @@
 #ifndef SNOOPY_SAUVEGARDE
 #define SNOOPY_SAUVEGARDE
 
-char lire_sauvegarde(char nom_partie[30]);
+int sauvegarde_id_valide(char *id);
+struct ModeleNiveau charger_sauvegarde(char *id, int code);
+void sauvegarder_partie(struct ModeleNiveau modele, int temps_restant, char *chemin);
+char *demande_sauvegarde_id();
 
 #endif //SNOOPY_SAUVEGARDE
 

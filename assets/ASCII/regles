@@ -1,22 +1,15 @@
-                                .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.
-                               | .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
-                               | |  _______     | || |  _________   | || |    ______    | || |   _____      | || |  _________   | || |    _______   | |
-                               | | |_   __ \    | || | |_   ___  |  | || |  .' ___  |   | || |  |_   _|     | || | |_   ___  |  | || |   /  ___  |  | |
-                               | |   | |__) |   | || |   | |_  \_|  | || | / .'   \_|   | || |    | |       | || |   | |_  \_|  | || |  |  (__ \_|  | |
-                               | |   |  __ /    | || |   |  _|  _   | || | | |    ____  | || |    | |   _   | || |   |  _|  _   | || |   '.___`-.   | |
-                               | |  _| |  \ \_  | || |  _| |___/ |  | || | \ `.___]  _| | || |   _| |__/ |  | || |  _| |___/ |  | || |  |`\____) |  | |
-                               | | |____| |___| | || | |_________|  | || |  `._____.'   | || |  |________|  | || | |_________|  | || |  |_______.'  | |
-                               | |              | || |              | || |              | || |              | || |              | || |              | |
-                               | '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
-                                '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'
+.---. .----..----..-.   .----. .----.
+} }}_}} |__}| |--'} |   } |__}{ {__-`
+| } \ } '__}| }-`}} '--.} '__}.-._} }
+`-'-' `----'`----'`----'`----'`----'
 
-1. Snoopy a pour objectif de récupérer quatre oiseaux positionnés aux quatre coins du niveau dans un laps de temps défini. Cependant, la tâche n'est pas aussi simple, car une balle rebondit continuellement dans le niveau pour entraver la quête de Snoopy. En plus de cela, divers pièges compliquent la mission, tels que des téléporteurs utilisables par la balle, des cases piégées, voire même des blocs à pousser ou à détruire.
-2. Au départ, vous disposez de 3 vies. Chaque niveau doit être complété en moins de 120 secondes. En cas de dépassement du temps imparti, vous perdrez une vie et devrez le niveau.
-3. Pour vous déplacer, utilisez les touches directionnelles de votre clavier.
-4. Pour déplacer les blocs, avancez en leur direction.
-5. Pour casser les blocs, utilisez la touche espace de votre clavier.
-6. Pour mettre le jeu en pause, appuyer sur la touche P de votre clavier.
-7. Pour sauvegarder votre partie, appuyer sur la touche S de votre clavier.
-8. Pour recommencer le niveau en cours, appuyer sur la touche R de votre clavier. Cela vous coutera une vie.
-9. Pour quitter le jeu, appuyer sur la touche Q de votre clavier.
+1. Snoopy a pour objectif de recuperer quatre oiseaux positionnes aux quatre coins du niveau dans un laps de temps défini. Cependant la tache n'est pas aussi simple car une balle rebondit continuellement dans le niveau pour entraver la quete de Snoopy. En plus de cela divers pieges compliquent la mission tels que des teleporteurs utilisables par la balle, des cases piegees, voire meme des blocs a pousser ou a detruire.
+2. Au depart, vous disposez de 3 vies. Chaque niveau doit etre complete en moins de 120 secondes. En cas de depassement du temps imparti vous perdrez une vie et devrez refaire le niveau.
+3. Pour vous deplacer, utilisez les touches directionnelles de votre clavier.
+4. Pour deplacer les blocs avancez en leur direction.
+5. Pour casser les blocs utilisez la touche espace de votre clavier.
+6. Pour mettre le jeu en pause appuyer sur la touche P de votre clavier.
+7. Pour sauvegarder votre partie appuyer sur la touche S de votre clavier.
+8. Pour recommencer le niveau en cours appuyer sur la touche R de votre clavier. Cela vous coutera une vie.
+9. Pour quitter le jeu appuyer sur la touche Q de votre clavier.
 

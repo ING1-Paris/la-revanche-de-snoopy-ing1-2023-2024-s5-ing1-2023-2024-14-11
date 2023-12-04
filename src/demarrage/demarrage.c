@@ -10,14 +10,18 @@
 
 #include "demarrage.h"
 #include "../tools/tools.h"
+#include "../menu/menu.h"
 
 void demarrage() {
 
+    //fonction pour afficher le logo
     afficher_logo();
 
-    clrscr();
-    textcolor(WHITE+BLINK);
-    cprintf("Appuyez sur une touche pour commencer");
+    //fonction pour afficher le menu suite à la pression de touche
+    menu();
+
+
+
 
 };
 
