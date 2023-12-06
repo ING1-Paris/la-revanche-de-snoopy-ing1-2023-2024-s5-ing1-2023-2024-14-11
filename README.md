@@ -3,10 +3,10 @@ Projet Informatique 1 en ING1 - ECE Paris
 Nom Projet : La revanche de Snoopy
 
 Membres : 
-  Mathew Kapoor
-  Estelle Sechoy
-  Ouriel Morel
-  Abder Chaoui
+  Mathew Kapoor;
+  Estelle Sechoy;
+  Ouriel Morel;
+  Abder Chaoui;
 
 Langage : C 
 
