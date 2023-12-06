@@ -1,3 +1,0 @@
-C:/Users/Ewan Kapoor/Desktop/SnoopyFinal/cmake-build-debug/CMakeFiles/SnoopyFinal.dir
-C:/Users/Ewan Kapoor/Desktop/SnoopyFinal/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Ewan Kapoor/Desktop/SnoopyFinal/cmake-build-debug/CMakeFiles/rebuild_cache.dir
