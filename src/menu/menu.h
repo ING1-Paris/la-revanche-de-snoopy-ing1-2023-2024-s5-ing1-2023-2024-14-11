@@ -1,17 +1,27 @@
 //
-// Created by Ewan Kapoor on 13/11/2023.
+// Created by Ewan Kapoor on 06/12/2023.
 //
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
 
-#ifndef SNOOPY_MENU
-#define SNOOPY_MENU
+#ifndef SNOOPYFINAL_MENU_H
+#define SNOOPYFINAL_MENU_H
 
+// Ce fichier contient les déclarations de fonctions pour le menu du jeu.
+
+// Inclure les bibliothèques nécessaires
+#include "../tools/tools.h"
+#include "../gameplay/gameplay.h"
+
+// Déclarations des fonctions de menu
 void menu();
-void afficher_menu();
-void afficher_regles();
+void afficherMenu();
+int selection();
+
+// Fonctions liées aux options du menu
+void afficherRegles();
+void chargerNiveau();
+void leaderboard();
+void afficherCredits();
 void quitter();
 
 
-#endif //SNOOPY_MENU
+#endif //SNOOPYFINAL_MENU_H
