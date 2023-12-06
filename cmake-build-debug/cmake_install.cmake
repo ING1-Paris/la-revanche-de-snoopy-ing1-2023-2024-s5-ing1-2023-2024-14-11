@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Ewan Kapoor/Desktop/SnoopyFinal
+# Install script for directory: C:/Users/Ewan Kapoor/Documents/GitHub/la-revanche-de-snoopy-ing1-2023-2024-s5-ing1-2023-2024-14-11
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Ewan Kapoor/Desktop/SnoopyFinal/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Ewan Kapoor/Documents/GitHub/la-revanche-de-snoopy-ing1-2023-2024-s5-ing1-2023-2024-14-11/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
